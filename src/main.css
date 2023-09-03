@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: #ccece6;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li:hover {
+  background: gray;
+  display: flex;
+}
+
+.nav li.active {
+  background: black;
+  display: flex;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.Home {
+  text-align: center;
+}
+
+.About {
+  text-align: center;
+}
+
+.Pricing {
+  text-align: center;
+}
+
+.square {
+  width: 54%;
+  height: 45%;
+  background-color: gray;
+  border-radius: 15px; 
+  position: absolute; 
+}
+
+.robin {
+  width: 25%;
+  height: 30%; 
+  position: absolute; 
+  border-radius: 15px;
+  display: flex; 
+}
+
+p span {
+  display: block;
+}
+
+.text-about {
+  text-align: center;
+}
+
+
